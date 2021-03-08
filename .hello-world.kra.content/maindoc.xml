@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DOC PUBLIC '-//KDE//DTD krita 2.0//EN' 'http://www.calligra.org/DTD/krita-2.0.dtd'>
+<DOC xmlns="http://www.calligra.org/DTD/krita" editor="Krita" syntaxVersion="2" kritaVersion="4.4.2">
+ <IMAGE width="4961" colorspacename="RGBA" description="" y-res="600" name="Unbenannt" mime="application/x-kra" profile="sRGB-elle-V2-srgbtrc.icc" height="7016" x-res="600">
+  <layers>
+   <layer intimeline="1" nodetype="shapelayer" channelflags="" visible="1" name="Vectors" y="0" compositeop="normal" locked="0" uuid="{4aa0d79a-65c7-4050-99d5-6674b8844819}" colorlabel="2" x="0" filename="layer2" opacity="255" selected="true" collapsed="0"/>
+   <layer intimeline="1" nodetype="paintlayer" colorspacename="RGBA" channelflags="" visible="1" channellockflags="" name="Draw" onionskin="0" y="0" compositeop="normal" locked="0" uuid="{959e67af-e574-4be8-8695-703c1180a2f6}" colorlabel="7" x="0" filename="layer3" opacity="255" collapsed="0"/>
+   <layer intimeline="1" nodetype="paintlayer" colorspacename="RGBA" channelflags="" visible="1" channellockflags="1111" name="Background" onionskin="0" y="0" compositeop="normal" locked="1" uuid="{373214c4-9510-4458-9654-757b8c980ccf}" colorlabel="8" x="0" filename="layer4" opacity="255" collapsed="0"/>
+  </layers>
+  <ProjectionBackgroundColor ColorData="AAAAAA=="/>
+  <GlobalAssistantsColor SimpleColorData="176,176,176,255"/>
+  <Palettes/>
+  <animation>
+   <framerate value="24" type="value"/>
+   <range from="0" to="100" type="timerange"/>
+   <currentTime value="0" type="value"/>
+  </animation>
+ </IMAGE>
+</DOC>

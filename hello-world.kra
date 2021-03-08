@@ -1,0 +1,18 @@
+Archive:  hello-world.kra
+ Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
+--------  ------  ------- ---- ---------- ----- --------  ----
+      19  Defl:N       24 -26% 2021-03-08 03:05 a703f0a1  mimetype
+    1594  Defl:N      721  55% 2021-03-08 03:05 4904c474  maindoc.xml
+    1008  Defl:N      489  52% 2021-03-08 03:05 9c54a62d  documentinfo.xml
+    2029  Defl:N     1336  34% 2021-03-08 03:05 d4fdc85d  preview.png
+     848  Defl:N      492  42% 2021-03-08 03:05 b8943013  Unbenannt/layers/layer2.shapelayer/content.svg
+      56  Defl:N       52   7% 2021-03-08 03:05 70cf4740  Unbenannt/layers/layer3
+       4  Defl:N        6 -50% 2021-03-08 03:05 2144df1c  Unbenannt/layers/layer3.defaultpixel
+    9080  Defl:N     8708   4% 2021-03-08 03:05 0ee2c1e3  Unbenannt/layers/layer3.icc
+      56  Defl:N       52   7% 2021-03-08 03:05 70cf4740  Unbenannt/layers/layer4
+       4  Defl:N        6 -50% 2021-03-08 03:05 ffffffff  Unbenannt/layers/layer4.defaultpixel
+    9080  Defl:N     8708   4% 2021-03-08 03:05 0ee2c1e3  Unbenannt/layers/layer4.icc
+    9080  Defl:N     8708   4% 2021-03-08 03:05 0ee2c1e3  Unbenannt/annotations/icc
+  660187  Defl:N   660242   0% 2021-03-08 03:05 faa710f2  mergedimage.png
+--------          -------  ---                            -------
+  693045           689544   1%                            13 files
