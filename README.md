@@ -1,7 +1,7 @@
 # ZIP treatment for Git
 This repository is a suggestion for treating ZIP archive based file types in Git.
 
-# Usage hints
+## Usage hints
  1. Install [Git LFS](https://git-lfs.github.com)
  2. Prepare LFS by issuing the command `git lfs install` once.
  3. Fork this repository.
