@@ -1,0 +1,19 @@
+#!/bin/sh
+#
+# Git archive extraction pre commit hook
+#
+# Created: 2021 by Vivien Richter <vivien-richter@outlook.de>
+# License: CC-BY-4.0
+# Version: 1.0.0
+
+# Configuration
+ARCHIVE_EXTENSIONS=$(cat .gitattributes | grep "zip" | tr -d [][:upper:] | cut -d " " -f1 | cut -d. -f2 | head -c -1 | tr "\n" "|")
+
+# Processing
+for STAGED_FILE in $(git diff --name-only --cached | grep -iE "\.($ARCHIVE_EXTENSIONS)$")
+do
+	# Extracts archives
+	unzip -o $STAGED_FILE -d ".$(basename $STAGED_FILE).contents"
+	# Adds extracted archive contents to the stage
+	git add ".$(basename $STAGED_FILE).contents"
+done
