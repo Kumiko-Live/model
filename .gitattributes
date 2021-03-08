@@ -1,5 +1,5 @@
 # Macro for all file types that should be treated as ZIP archives.
-[attr]zip filter=zip diff=zip merge=zip
+[attr]zip filter=zip
 
 # Macro for all binary files that should use Git LFS.
 [attr]bin -text filter=lfs diff=lfs merge=lfs lockable
