@@ -13,7 +13,7 @@ ARCHIVE_EXTENSIONS=$(cat .gitattributes | grep "zip" | tr -d [][:upper:] | cut -
 for STAGED_FILE in $(git diff --name-only --cached | grep -iE "\.($ARCHIVE_EXTENSIONS)$")
 do
 	# Extracts archives
-	unzip -o $STAGED_FILE -d ".$(basename $STAGED_FILE).contents"
-	# Adds extracted archive contents to the stage
-	git add ".$(basename $STAGED_FILE).contents"
+	unzip -o $STAGED_FILE -d ".$(basename $STAGED_FILE).content"
+	# Adds extracted archive content to the stage
+	git add ".$(basename $STAGED_FILE).content"
 done
