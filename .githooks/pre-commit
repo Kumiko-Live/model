@@ -12,8 +12,13 @@ ARCHIVE_EXTENSIONS=$(cat .gitattributes | grep "zip" | tr -d [][:upper:] | cut -
 # Processing
 for STAGED_FILE in $(git diff --name-only --cached | grep -iE "\.($ARCHIVE_EXTENSIONS)$")
 do
-	# Extracts archives
-	unzip -o $STAGED_FILE -d ".$(basename $STAGED_FILE).content"
-	# Adds extracted archive content to the stage
+	if [ ! -f "$STAGED_FILE" ]; then
+		# Deletes the archive content, if the archive itself is removed
+		rm -r ".$(basename $STAGED_FILE).content"
+	else
+		# Extracts archives
+		unzip -o $STAGED_FILE -d ".$(basename $STAGED_FILE).content"
+	fi
+	# Adds extracted or deleted archive content to the stage
 	git add ".$(basename $STAGED_FILE).content"
 done

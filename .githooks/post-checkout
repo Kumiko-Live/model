@@ -12,10 +12,14 @@ ARCHIVE_EXTENSIONS=$(cat .gitattributes | grep "zip" | tr -d [][:upper:] | cut -
 # Processing
 for EXTRACTED_ARCHIVE in $(git ls-tree -dr --full-tree --name-only HEAD | grep -iE "\.($ARCHIVE_EXTENSIONS)\.content$")
 do
+	# Gets filename
+	FILENAME=$(dirname $EXTRACTED_ARCHIVE)/$(basename $EXTRACTED_ARCHIVE | cut -d. -f2- | awk -F '.content' '{ print $1 }')
+	# Removes the dummy archive file
+	rm $FILENAME
 	# Jumps into the extracted archive
 	cd $EXTRACTED_ARCHIVE
-	# Creates the archive file
-	zip -r ../"$(dirname $EXTRACTED_ARCHIVE)/$(basename $EXTRACTED_ARCHIVE | cut -d. -f2- | awk -F '.content' '{ print $1 }')" ./*
+	# Creates the real archive file
+	zip -r9 ../"$FILENAME" $(find . -type f)
 	# Jumps back
 	cd ..
 done
