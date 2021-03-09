@@ -4,13 +4,6 @@
 # Macro for all binary files that should use Git LFS.
 [attr]bin -text filter=lfs diff=lfs merge=lfs lockable
 
-# OpenDocument
-*.[oO][dD][tT] zip
-*.[oO][dD][sS] zip
-*.[oO][dD][gG] zip
-*.[oO][dD][pP] zip
-*.[oO][dD][mM] zip
-
 # Krita
 *.[kK][rR][aA] zip
 
