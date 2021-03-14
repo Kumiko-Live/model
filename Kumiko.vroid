@@ -1,4 +1,4 @@
-c3e0bfcf body_editor/body_defs.json
+6fef4eb8 body_editor/body_defs.json
 70610485 clothing_editor/clothing_defs.bin
 16a1d123 clothing_editor/clothing_defs.bin.json
 35afdef5 face_editor/blend_shape_composition_defs.json
@@ -7,7 +7,7 @@ c3e0bfcf body_editor/body_defs.json
 17a570b8 general_editor/outline_parameter_defs.json
 a7cc4250 general_editor/shading_parameter_defs.json
 6305dd70 general_editor/spring_bone_defs.json
-a6887d89 hair_editor/hair_defs.json
+4947a1a9 hair_editor/hair_defs.json
 9f86fc0e materials/material_defs.json
 b92bbd81 materials/rendered_textures/118d27017a6e4edc9a4d29d8781fbf9d.texture.png
 c03d6373 materials/rendered_textures/1a27b565e4a8433f8b1b3bfadac4e48a.texture.png
@@ -25,6 +25,6 @@ b482f593 materials/rendered_textures/dc32a60bf4834a4385f83a8ed51f067d.texture.pn
 ec34505c materials/rendered_textures/df74aa13f0a449679e800cf5468b1a37.texture.png
 65619a56 materials/rendered_textures/e40877cf03754cb086024ef80a7df9bf.texture.png
 82f013bf materials/rendered_textures/fdd1b644c5fc473abfd83234736c4674.texture.png
-641d9005 materials/textures.sqlite3
-ee570a3c meta.json
-37a425e1 thumbnails/thumbnail.jpg
+4969f92e materials/textures.sqlite3
+b2b0ba1f meta.json
+5faec032 thumbnails/thumbnail.jpg
