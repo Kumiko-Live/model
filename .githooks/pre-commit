@@ -4,7 +4,7 @@
 #
 # Created: 2021 by Vivien Richter <vivien-richter@outlook.de>
 # License: CC-BY-4.0
-# Version: 1.0.0
+# Version: 1.0.1
 
 # Configuration
 ARCHIVE_EXTENSIONS=$(cat .gitattributes | grep "zip" | tr -d [][:upper:] | cut -d " " -f1 | cut -d. -f2 | head -c -1 | tr "\n" "|")
