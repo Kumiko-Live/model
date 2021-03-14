@@ -4,7 +4,7 @@
 #
 # Created: 2021 by Vivien Richter <vivien-richter@outlook.de>
 # License: CC-BY-4.0
-# Version: 1.0.0
+# Version: 1.0.1
 
 # Configuration
 ARCHIVE_EXTENSIONS=$(cat .gitattributes | grep "zip" | tr -d [][:upper:] | cut -d " " -f1 | cut -d. -f2 | head -c -1 | tr "\n" "|")
@@ -12,11 +12,10 @@ ARCHIVE_EXTENSIONS=$(cat .gitattributes | grep "zip" | tr -d [][:upper:] | cut -
 # Processing
 for STAGED_FILE in $(git diff --name-only --cached | grep -iE "\.($ARCHIVE_EXTENSIONS)$")
 do
-	if [ ! -f "$STAGED_FILE" ]; then
-		# Deletes the archive content, if the archive itself is removed
-		rm -r ".$(basename $STAGED_FILE).content"
-	else
-		# Extracts archives
+	# Deletes the old archive content
+	rm -rf ".$(basename $STAGED_FILE).content"
+	# Extracts the archive content, if the archive itself is not removed
+	if [ -f "$STAGED_FILE" ]; then
 		unzip -o $STAGED_FILE -d ".$(basename $STAGED_FILE).content"
 	fi
 	# Adds extracted or deleted archive content to the stage
