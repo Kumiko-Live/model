@@ -22,5 +22,5 @@ This repository contains all 3D models of [Kumiko Live!](https://www.youtube.com
  8. Apply the filter once by issuing the command `git add -A`.
 
 ## Credits
- * 2021 by [Vivien Richter](https://github.com/vivi90) and [Romy Kircheis](https://github.com/RomyKircheis)
+ * 2021 by [Vivien Richter](https://github.com/vivi90) and [Romy Kircheis](https://github.com/RomyKircheis) *(Please check the commits for further details)*
  * Git repository: [GitHub](https://github.com/Kumiko-Live/model.git)
