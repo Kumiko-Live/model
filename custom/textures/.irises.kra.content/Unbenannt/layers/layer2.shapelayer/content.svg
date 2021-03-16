@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="1024pt"
+    height="512pt"
+    viewBox="0 0 1024 512">
+<defs>
+  <radialGradient id="gradient0" gradientUnits="objectBoundingBox" cx="0.499975547424695" cy="0.497265092669745" fx="0.499975547424695" fy="0.497265092669744" r="0.240930328480804" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.465863453815261" stop-opacity="1"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient1" gradientUnits="objectBoundingBox" cx="0.499975547424695" cy="0.497265092669745" fx="0.499975547424695" fy="0.497265092669744" r="0.240930328480804" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.465863466262817" stop-opacity="1"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient2" gradientUnits="objectBoundingBox" cx="0.499975547424695" cy="0.497265092669745" fx="0.499975547424695" fy="0.497265092669744" r="0.240930328480804" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.465863453815261" stop-opacity="1"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gradient3" gradientUnits="objectBoundingBox" cx="0.499975547424695" cy="0.497265092669745" fx="0.499975547424695" fy="0.497265092669744" r="0.240930328480804" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.465863466262817" stop-opacity="1"/>
+   <stop stop-color="#000000" offset="1" stop-opacity="0"/>
+  </radialGradient>
+ </defs>
+<ellipse id="shape0" transform="translate(249.38231292517, 179.025850340136)" rx="39.0095238095238" ry="41.7959183673469" cx="39.0095238095238" cy="41.7959183673469" fill="url(#gradient0)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><ellipse id="shape0" transform="matrix(0.999999956306845 0 0 0.999999956306845 184.737954610794 275.504761904762)" rx="39.0095238095238" ry="16.5442184099439" cx="39.0095238095238" cy="16.5442184099439" fill="url(#gradient1)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><ellipse id="shape1" transform="matrix(-1 0 0 1 846.517185064893 178.304024642961)" rx="39.0095238095238" ry="41.7959183673469" cx="39.0095238095238" cy="41.7959183673469" fill="url(#gradient2)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/><ellipse id="shape01" transform="matrix(-0.999999956306845 0 0 0.999999956306845 772.676255775103 277.833189045757)" rx="39.0095238095238" ry="16.5442184099439" cx="39.0095238095238" cy="16.5442184099439" fill="url(#gradient3)" fill-rule="evenodd" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel"/>
+</svg>

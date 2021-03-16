@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DOC PUBLIC '-//KDE//DTD krita 2.0//EN' 'http://www.calligra.org/DTD/krita-2.0.dtd'>
+<DOC xmlns="http://www.calligra.org/DTD/krita" kritaVersion="4.4.2" editor="Krita" syntaxVersion="2">
+ <IMAGE height="512" x-res="72" description="" y-res="72" profile="sRGB-elle-V2-srgbtrc.icc" name="Unbenannt" colorspacename="RGBA" width="1024" mime="application/x-kra">
+  <layers>
+   <layer compositeop="normal" x="0" filename="layer2" channelflags="" locked="0" nodetype="shapelayer" selected="true" collapsed="0" visible="1" uuid="{28136df7-d5c4-40bf-8300-50b3a2c65a1a}" y="0" colorlabel="3" name="Reflections" opacity="255" intimeline="1"/>
+   <layer compositeop="normal" x="0" filename="layer3" channelflags="" locked="1" nodetype="shapelayer" collapsed="0" visible="1" uuid="{23dd0896-02ed-414b-8d47-bf94c939ec4a}" y="0" colorlabel="5" name="Shade" opacity="255" intimeline="1"/>
+   <layer compositeop="normal" x="0" filename="layer4" channelflags="" locked="1" nodetype="paintlayer" collapsed="0" onionskin="0" visible="1" uuid="{a93ff4c1-7db3-4f19-91ea-12af8573f8b3}" channellockflags="1111" y="0" colorlabel="2" name="Pattern" opacity="255" colorspacename="RGBA" intimeline="1"/>
+   <layer compositeop="normal" x="0" filename="layer5" channelflags="" locked="1" nodetype="shapelayer" collapsed="0" visible="1" uuid="{de6a50a7-efc9-4d35-be6e-6840231561dc}" y="0" colorlabel="1" name="Outline, Pupil &amp; Color" opacity="255" intimeline="1"/>
+   <layer compositeop="normal" x="0" filename="layer6" channelflags="" locked="1" nodetype="paintlayer" collapsed="0" onionskin="0" visible="1" uuid="{89d3dbf5-3942-4de0-9587-81b9094140f1}" channellockflags="1111" y="0" colorlabel="8" name="Template" opacity="255" colorspacename="RGBA" intimeline="1"/>
+  </layers>
+  <ProjectionBackgroundColor ColorData="AAAAAA=="/>
+  <GlobalAssistantsColor SimpleColorData="176,176,176,255"/>
+  <Palettes/>
+  <animation>
+   <framerate value="24" type="value"/>
+   <range to="100" type="timerange" from="0"/>
+   <currentTime value="0" type="value"/>
+  </animation>
+ </IMAGE>
+</DOC>
