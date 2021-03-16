@@ -7,6 +7,10 @@ _![Current preview](.Kumiko.fvp.content/print_data/images/print_image_front.png)
 ## About
 This repository contains all 3D models of [Kumiko Live!](https://www.youtube.com/channel/UCGcClcnm7Y0-jWSeSV5xnKw)
 
+## Used software:
+ - [VRoid Studio](https://vroid.com/en/studio) 0.13.1
+ - [Krita](https://krita.org/en) 4.4.2
+
 ## How to clone
  1. Install [Git LFS](https://git-lfs.github.com)
  2. Prepare LFS by issuing the command `git lfs install` once.

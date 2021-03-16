@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE DOC PUBLIC '-//KDE//DTD krita 2.0//EN' 'http://www.calligra.org/DTD/krita-2.0.dtd'>
+<DOC xmlns="http://www.calligra.org/DTD/krita" kritaVersion="4.4.2" editor="Krita" syntaxVersion="2">
+ <IMAGE height="1024" x-res="72" description="" y-res="72" profile="sRGB-elle-V2-srgbtrc.icc" name="Unbenannt" colorspacename="RGBA" width="512" mime="application/x-kra">
+  <layers>
+   <layer x="0" intimeline="1" locked="0" visible="1" colorlabel="4" filename="layer2" y="0" channelflags="" onionskin="0" uuid="{aaaa3ed0-e900-4099-a8b3-930724f99666}" name="Color" opacity="255" collapsed="0" channellockflags="" nodetype="paintlayer" colorspacename="RGBA" selected="true" compositeop="normal"/>
+   <layer compositeop="normal" x="0" filename="layer3" channelflags="" locked="1" nodetype="paintlayer" collapsed="0" onionskin="0" visible="1" uuid="{ec1a0134-e107-420c-9977-1276764610d8}" channellockflags="1111" y="0" colorlabel="8" name="Pattern" opacity="255" colorspacename="RGBA" intimeline="1"/>
+  </layers>
+  <ProjectionBackgroundColor ColorData="AAAAAA=="/>
+  <GlobalAssistantsColor SimpleColorData="176,176,176,255"/>
+  <Palettes/>
+  <animation>
+   <framerate value="24" type="value"/>
+   <range to="100" type="timerange" from="0"/>
+   <currentTime value="0" type="value"/>
+  </animation>
+ </IMAGE>
+</DOC>
