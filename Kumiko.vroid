@@ -7,11 +7,12 @@
 17a570b8 general_editor/outline_parameter_defs.json
 a7cc4250 general_editor/shading_parameter_defs.json
 6305dd70 general_editor/spring_bone_defs.json
-d89cc3e0 hair_editor/hair_defs.json
-87cc0843 materials/material_defs.json
+9af59247 hair_editor/hair_defs.json
+a4e00209 materials/material_defs.json
 b92bbd81 materials/rendered_textures/118d27017a6e4edc9a4d29d8781fbf9d.texture.png
 c03d6373 materials/rendered_textures/1a27b565e4a8433f8b1b3bfadac4e48a.texture.png
 f0610d53 materials/rendered_textures/1f21bf637651477a9a637a735509327b.texture.png
+c070375f materials/rendered_textures/1f3d6738-aee4-4cc9-988e-1eb6c758acf0.png
 9bf7608a materials/rendered_textures/3cb38857bd4e466bae34b4cabd424b62.texture.png
 4b16c5e3 materials/rendered_textures/4c083535-813c-45f2-9ed8-29b5193f441c.png
 573172a4 materials/rendered_textures/67fe0c03866a459cbf320924ebd20e0f.texture.png
@@ -25,6 +26,6 @@ b482f593 materials/rendered_textures/dc32a60bf4834a4385f83a8ed51f067d.texture.pn
 ec34505c materials/rendered_textures/df74aa13f0a449679e800cf5468b1a37.texture.png
 65619a56 materials/rendered_textures/e40877cf03754cb086024ef80a7df9bf.texture.png
 1f163279 materials/rendered_textures/fdd1b644c5fc473abfd83234736c4674.texture.png
-1589e456 materials/textures.sqlite3
-d85e48f3 meta.json
-980cd6d0 thumbnails/thumbnail.jpg
+c0f7644e materials/textures.sqlite3
+d769f544 meta.json
+d213eae4 thumbnails/thumbnail.jpg
