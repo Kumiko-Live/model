@@ -1,7 +1,7 @@
-22dce2fe print_data/images/print_image_back.png
-bd4cdf7f print_data/images/print_image_front.png
-df84d6c6 print_data/images/print_image_left.png
-bad03f09 print_data/images/print_image_right.png
-454dfed7 print_data/meta.json
-530c9fba print_data/vrms/body.vrm
-f88e128f print_data/vrms/face.vrm
+fe711f0a print_data/images/print_image_back.png
+4d2a0628 print_data/images/print_image_front.png
+5ee64833 print_data/images/print_image_left.png
+75226fb8 print_data/images/print_image_right.png
+fe07f1bc print_data/meta.json
+ff7f44d1 print_data/vrms/body.vrm
+b8e15958 print_data/vrms/face.vrm
