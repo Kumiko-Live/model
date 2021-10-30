@@ -9,7 +9,7 @@ This repository is a suggestion for treating ZIP archive based file types in Git
  5. Add the filter by issuing the following commands:
  ```bash
  git config filter.zip.clean "unzip -v %f | tail -n +4 | head -n -2 | awk '{ print \$7,\$8 }' | grep -vE /$ | LC_ALL=C sort -sfk 2,2"
- git config filter.zip.smudge "rm %f; cd %f.content; zip -r9 ../%f $(find . -type f)"
+ git config filter.zip.smudge "cat"
  git config filter.zip.required true
  ```
  6. Install the hooks by issuing the command `git config core.hooksPath .githooks`.
@@ -25,7 +25,7 @@ This repository is a suggestion for treating ZIP archive based file types in Git
 ## Known issues
  * [Whitespaces in filenames (22. April 2021)](https://github.com/vivi90/git-zip/issues/1)
  * [Stash not working (30. October 2021)](https://github.com/vivi90/git-zip/issues/4)
- 
+
 ## License
 This project is free software under the terms of the CC BY 4.0 license.
 For more details please see the LICENSE file or: [Creative Commons](http://creativecommons.org/licenses/by/4.0)
