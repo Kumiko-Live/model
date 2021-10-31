@@ -5,7 +5,7 @@
 [attr]bin -text filter=lfs diff=lfs merge=lfs lockable
 
 # Forces `LF` as line endings for text based files inside ZIP archives.
-*.content/** text=auto eol=lf
+**/*.content/** text=auto eol=lf
 
 # Krita
 *.[kK][rR][aA] zip
