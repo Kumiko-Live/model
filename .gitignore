@@ -3,3 +3,6 @@
 
 # Temporary files
 *~
+
+# BackUp's for old VRoidStudio versions
+backup-*-0_13_1.vroid
